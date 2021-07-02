@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Project 89</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body id="game_body">
+        <div class="container">
+                <h4 id="a"><span id="b"></span></h4>
+                <h4 id="c"><span id="d"></span></h4>
+            <center>
+                <h1>The Math Quiz Game!</h1>
+                <h2 id="e">Question turn = <span id="f"></span></h2>
+                <h2 id="g">Answer turn = <span id="h"></span></h2>
+                <div class="login_div1">
+                    <h2 id="l"></h2>
+                    <h2 id="q"></h2>
+                    <span><input id="abcd" style="font-size: 30;" placeholder="Answer"></span>
+                    <button id="check" class="btn btn-info" onclick="check()">Check</button>
+                </div>
+                <br>
+                <h3>Number 1</h3>
+                <br>
+                <input id="x" class="form-control col-lg-4 col-sm-8 col-xs-11" placeholder="Kindly Enter 1st Number Of Your Equation">
+                <br>
+                <h3>Number 2</h3>
+                <br>
+                <input id="y" placeholder="Kindly Enter The Second Number Of The Eqaution" class="form-control col-lg-4 col-sm-8 col-xs-11">
+                <br>
+                <br>
+                <br>
+                <button class="btn btn-success" onclick="send()" id="send_btn">Send</button>
+            </center>
+        </div>
+        <script src="game_page.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </body>
+</html>
